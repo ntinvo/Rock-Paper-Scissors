@@ -2,7 +2,7 @@
 		Tin Vo
  **/
 import java.util.Random;
-public class RandomPlayer
+public class Player
 {
     private Random rand;
 	
