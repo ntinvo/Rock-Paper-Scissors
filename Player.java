@@ -6,7 +6,7 @@ public class RandomPlayer
 {
     private Random rand;
 	
-    RandomPlayer () 
+    Player () 
     {
         rand = new Random();
     }

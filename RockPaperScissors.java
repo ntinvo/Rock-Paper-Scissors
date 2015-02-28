@@ -9,7 +9,7 @@ public class RockPaperScissors
     public static void main(String[] args)   
     {   
         Scanner console = new Scanner(System.in);
-        RandomPlayer comp = new RandomPlayer();      
+        Player comp = new Player();      
         comptMove(comp); 
         round(console,comptMove(comp),comp);
     }
